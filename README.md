@@ -17,7 +17,6 @@ Additionally, our model employs self-attention scores on the features extracted 
 ## Installation
 
 Create conda environment:
-
     ```bash
     conda create -n MoFIN python=3.11.3
     pip install -r requirements.txt
