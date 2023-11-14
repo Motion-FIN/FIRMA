@@ -68,6 +68,7 @@ Make your downloaded files structured like below:
 ├── test.py
 └── val.py
 ```
+## Run
 
 Run benchmarking by following commands:
 ```bash
