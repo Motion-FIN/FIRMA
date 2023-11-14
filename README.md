@@ -12,7 +12,7 @@
 ## Benchmarking
 
 Download our [pretrained model-Setting1](https://drive.google.com/file/d/1ASviqlBU8VTN3WBTLINo93wr2mRW3-Yz/view?usp=sharing).
-Download our [pretrained model-Setting4](https://drive.google.com/file/d/1NMH6y-F0TmE-e01tVlGKQOfhzoYMwYtV/view?usp=sharing).
+& [pretrained model-Setting4](https://drive.google.com/file/d/1NMH6y-F0TmE-e01tVlGKQOfhzoYMwYtV/view?usp=sharing).
 
 Download [Vimeo90K dataset](http://toflow.csail.mit.edu/).
 
