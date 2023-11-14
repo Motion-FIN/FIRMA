@@ -2,6 +2,7 @@
 
 ## Method Architecture
 
+![Uploading framework.jpg…]()
 
 
 ## Requirements
