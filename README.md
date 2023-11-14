@@ -2,8 +2,8 @@
 
 ## Method Architecture
 
-![framework](https://github.com/Motion-FIN/Motion-Focused-Interpolation-Network-MoFIN-/assets/150782727/ca3f34e5-03b1-4fd4-a013-774a3e7200ea)
-<img src ="https://github.com/Motion-FIN/Motion-Focused-Interpolation-Network-MoFIN-/assets/150782727/ca3f34e5-03b1-4fd4-a013-774a3e7200ea" width="200" height="400"/>
+
+<img src ="https://github.com/Motion-FIN/Motion-Focused-Interpolation-Network-MoFIN-/assets/150782727/ca3f34e5-03b1-4fd4-a013-774a3e7200ea" width="1200" height="1400"/>
 
 
 ## Requirements
