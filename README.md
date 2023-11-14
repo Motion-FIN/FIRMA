@@ -115,8 +115,6 @@ To enable the augmented test (**"MoFIN-Set1-Aug"** & **"MoFIN-Set4-Aug"** in the
 
 ## Training
 
-The model was trained on the Vimeo90K-triplet training split.
-
 Run the following command for training:
 
 ```bash
