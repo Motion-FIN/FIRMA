@@ -17,6 +17,13 @@ Additionally, our model employs self-attention scores on the features extracted 
     pip install -r requirements.txt
     ```
 
+    
+## Download Pre-trained Models
+
+Download pretrained models [Setting1](https://drive.google.com/file/d/1ASviqlBU8VTN3WBTLINo93wr2mRW3-Yz/view?usp=sharing).
+& [Setting4](https://drive.google.com/file/d/1NMH6y-F0TmE-e01tVlGKQOfhzoYMwYtV/view?usp=sharing).
+
+
 ## Download Datasets
 
 Download [Vimeo90K dataset](http://toflow.csail.mit.edu/).
@@ -27,10 +34,6 @@ Download [UCF101 dataset](https://liuziwei7.github.io/projects/VoxelFlow).
 
 Download [MiddleBury Other dataset](https://vision.middlebury.edu/flow/data/).
 
-## Download Pretrained files
-
-Download our [pretrained model-Setting1](https://drive.google.com/file/d/1ASviqlBU8VTN3WBTLINo93wr2mRW3-Yz/view?usp=sharing).
-& [pretrained model-Setting4](https://drive.google.com/file/d/1NMH6y-F0TmE-e01tVlGKQOfhzoYMwYtV/view?usp=sharing).
 
 ## File Paths
 
