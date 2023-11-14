@@ -1,4 +1,4 @@
-# Motion-Focused-Interpolation-Network-MoFIN-# Video Frame Interpolation with Densely Queried Bilateral Correlation
+# Motion-Focused Interpolation Network(MoFIN): Integrating Region of Motion Loss and Self-Attention for Enhanced Video Frame Interpolation 
 
 ## Requirements
 
