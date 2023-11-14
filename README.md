@@ -99,7 +99,7 @@ Run the following command for training:
 CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 --master_port 9999 train.py --config configs/train.yaml
 ```
 
-## Testing on a Custom Image Pair
+## Testing on your pair of frames
 
 First specify the path of the model weights in `configs/test.yaml`.
 
