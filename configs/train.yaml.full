@@ -1,0 +1,115 @@
+ckp_root: experiments/dqbc/checkpoints
+exp_name: dqbc
+exp_root: experiments/dqbc
+init_step: 0
+log:
+  sum_freq: 500
+max_corners: 4096
+model:
+  cnet:
+    dims:
+    - 32
+    - 64
+    - 128
+  corr:
+    arch: x
+    level:
+    - 0
+    - 1
+    - 2
+    radius:
+    - 6
+    - 4
+    - 3
+    stride:
+    - 1
+    - 1
+    - 1
+  flowgen:
+    c: 256
+    corr_manip:
+      out_c: 192
+    down_scale_th: -1
+    inet:
+      dims:
+      - 64
+      - 128
+      - 256
+    norm: group8
+  flowtea:
+    arch: ifblock
+    c: 90
+    margin: 0.1
+    recalc_mask: false
+    w_tea:
+    - 0.5
+    - 1
+    - 1
+    - 1
+  flowup:
+    conv_block: 373
+    dims:
+    - 32
+    - 64
+    - 128
+    - 256
+    mlp_ratio: 4
+    norm: none
+  name: DQBC
+  size_mod: 64
+  synth:
+    acnet:
+      dims:
+      - 64
+      - 128
+      - 256
+    conv_block: RBx2
+    dims:
+    - 32
+    - 64
+    - 128
+    - 256
+    mlp_ratio: 4
+num_boxes: 20
+reset: true
+train:
+  batch_size: 22
+  clip: 1.0
+  data:
+    aug_script: rife
+    crop_size:
+    - 256
+    - 256
+    dataset_root: datasets/vimeo_triplet
+    name: Vimeo90K
+    rgb_order: rgb
+  loss:
+    distill:
+      w: 0.01
+    l1:
+      w: 1
+    l1_tea:
+      w: 1
+    rom:
+      w: 0.002
+  lr:
+    bottom: 2.0e-06
+    peak: 0.0002
+    peak_step: 2000
+    total_steps: 600000
+    type: warm_cosine
+  num_steps: 3000000
+  save_freq: 30000
+  wdecay: 0.0001
+val:
+  val-10:
+    data:
+      dataset_root: datasets/vimeo_triplet
+      name: Vimeo90K
+      rgb_order: rgb
+    num_val: 10
+    rand_seed: 123
+    val_freq: 5000
+    viz: true
+val_fn: std
+viz_root: experiments/dqbc/viz

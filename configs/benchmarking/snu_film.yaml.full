@@ -1,0 +1,104 @@
+ckp_root: experiments/benchmark_dqbc_aug_snu_film/checkpoints
+exp_name: benchmark_dqbc_aug_snu_film
+exp_root: experiments/benchmark_dqbc_aug_snu_film
+init_step: 0
+max_corners: 8192
+model:
+  cnet:
+    dims:
+    - 32
+    - 64
+    - 128
+  corr:
+    arch: x
+    level:
+    - 0
+    - 1
+    - 2
+    radius:
+    - 6
+    - 4
+    - 3
+    stride:
+    - 1
+    - 1
+    - 1
+  flowgen:
+    c: 256
+    corr_manip:
+      out_c: 192
+    down_scale_th: 24
+    inet:
+      dims:
+      - 64
+      - 128
+      - 256
+    norm: group8
+  flowtea:
+    arch: ifblock
+    c: 90
+    margin: 0.1
+    recalc_mask: false
+    w_tea:
+    - 0.5
+    - 1
+    - 1
+    - 1
+  flowup:
+    conv_block: 373
+    dims:
+    - 32
+    - 64
+    - 128
+    - 256
+    mlp_ratio: 4
+    norm: none
+  name: DQBC
+  pretrained: pretrained/925/390000_dqbc.pth
+  size_mod: 64
+  synth:
+    acnet:
+      dims:
+      - 64
+      - 128
+      - 256
+    conv_block: RBx2
+    dims:
+    - 32
+    - 64
+    - 128
+    - 256
+    mlp_ratio: 4
+num_boxes: 24
+reset: true
+val:
+  snu_film_easy:
+    data:
+      dataset_root: datasets/snu_film
+      name: SNU_FILM
+      rgb_order: rgb
+      split: easy
+    viz: false
+  snu_film_extreme:
+    data:
+      dataset_root: datasets/snu_film
+      name: SNU_FILM
+      rgb_order: rgb
+      split: extreme
+    viz: false
+  snu_film_hard:
+    data:
+      dataset_root: datasets/snu_film
+      name: SNU_FILM
+      rgb_order: rgb
+      split: hard
+    viz: false
+  snu_film_medium:
+    data:
+      dataset_root: datasets/snu_film
+      name: SNU_FILM
+      rgb_order: rgb
+      split: medium
+    viz: false
+val_fn: std
+viz_root: experiments/benchmark_dqbc_aug_snu_film/viz
