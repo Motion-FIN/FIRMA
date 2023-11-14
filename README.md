@@ -37,7 +37,7 @@ Download [MiddleBury Other dataset](https://vision.middlebury.edu/flow/data/).
 
 ## File Paths
 
-Make your downloaded files structured like below:
+The dataset folder names should be lower-case and structured as follows:
 
 ```bash
 .
@@ -88,7 +88,6 @@ python val.py --config configs/benchmarking/snu_film.yaml --gpu_id 0
 
 To enable the augmented test (**"MoFIN-Set1-Aug"** & **"MoFIN-Set4-Aug"** in the paper), uncomment the `val_aug: [T,R]` line in the configuration files.
 
-Augmentation Performance:
 
 ## Training
 
