@@ -103,7 +103,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 --master_port 9999 trai
 
 First specify the path of the model weights in `configs/test.yaml`.
 
-Then you can test the model on a customized image pair as:
+Then you can test the model on your image pair as:
 
 ```bash
 python test.py --config configs/test.yaml --im0 <path to im0> --im1 <path to im1> --output_dir <path to output folder>
