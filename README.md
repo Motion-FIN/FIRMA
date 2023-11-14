@@ -16,12 +16,18 @@ Additionally, our model employs self-attention scores on the features extracted 
 
 ## Installation
 
+Download repository:
+```bash
+    git clone https://github.com/Motion-FIN/Motion-Focused-Interpolation-Network-MoFIN-.git
+```
+
 Create conda environment:
 ```bash
     conda create -n MoFIN python=3.11.3
     conda activate MoFIN
     pip install -r requirements.txt
 ```
+
 
     
 ## Download Pre-trained Models
