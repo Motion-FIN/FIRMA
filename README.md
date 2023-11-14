@@ -1,9 +1,5 @@
 # Motion-Focused-Interpolation-Network-MoFIN-# Video Frame Interpolation with Densely Queried Bilateral Correlation
 
-## Introduction
-
-This repository is the official implementation of the IJCAI 2023 paper "Video Frame Interpolation with Densely Queried Bilateral Correlation". [[paper](https://arxiv.org/abs/2304.13596)]
-
 ## Requirements
 
 1. `torch` is necessary. The code has been developed with `torch1.12.1`.
@@ -53,7 +49,8 @@ Make your downloaded files structured like below:
 │       ├── tri_testlist.txt
 │       └── tri_trainlist.txt
 ├── pretrained
-│   └── 510000.pth
+│   ├── Setting1.pth
+│   └── Setting4.pth
 ├── experiments
 ├── losses
 ├── models
@@ -72,7 +69,7 @@ python val.py --config configs/benchmarking/ucf101.yaml --gpu_id 0
 python val.py --config configs/benchmarking/snu_film.yaml --gpu_id 0
 ```
 
-To enable the augmented test (**"Ours-Aug"** in the paper), uncomment the `val_aug: [T,R]` line in the configuration files.
+To enable the augmented test (**"MoFIN-Set1-Aug"** & **"MoFIN-Set4-Aug"** in the paper), uncomment the `val_aug: [T,R]` line in the configuration files.
 
 
 ## Training
