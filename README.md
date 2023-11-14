@@ -16,9 +16,9 @@ Additionally, our model employs self-attention scores on the features extracted 
 
 ## Installation
 
-
-Create conda environment:
-        ```bash
+1. `torch` is necessary. The code has been developed with `torch1.12.1`.
+2. Install other requirements as:
+    ```bash
     pip install -r requirements.txt
     ```
 
