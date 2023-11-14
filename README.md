@@ -16,9 +16,10 @@ Additionally, our model employs self-attention scores on the features extracted 
 
 ## Installation
 
-1. `torch` is necessary. The code has been developed with `torch1.12.1`.
-2. Install other requirements as:
+Create conda environment:
     ```bash
+    conda create -n MoFIN python=3.11.3
+    conda activate MoFIN
     pip install -r requirements.txt
     ```
 
