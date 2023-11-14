@@ -1,18 +1,18 @@
 # Motion-Focused Interpolation Network(MoFIN): Integrating Region of Motion Loss and Self-Attention for Enhanced Video Frame Interpolation 
 
+## Method Architecture
+
+
+
 ## Requirements
 
-1. `torch` is necessary. The code has been developed with `torch1.12.1`.
+1. The code has been developed with `torch1.12.1`.
 2. Install other requirements as:
     ```bash
     pip install -r requirements.txt
     ```
 
-
-## Benchmarking
-
-Download our [pretrained model-Setting1](https://drive.google.com/file/d/1ASviqlBU8VTN3WBTLINo93wr2mRW3-Yz/view?usp=sharing).
-& [pretrained model-Setting4](https://drive.google.com/file/d/1NMH6y-F0TmE-e01tVlGKQOfhzoYMwYtV/view?usp=sharing).
+## Download Datasets
 
 Download [Vimeo90K dataset](http://toflow.csail.mit.edu/).
 
@@ -21,6 +21,13 @@ Download [SNU_FILM dataset](https://myungsub.github.io/CAIN/).
 Download [UCF101 dataset](https://liuziwei7.github.io/projects/VoxelFlow).
 
 Download [MiddleBury Other dataset](https://vision.middlebury.edu/flow/data/).
+
+## Download Pretrained files
+
+Download our [pretrained model-Setting1](https://drive.google.com/file/d/1ASviqlBU8VTN3WBTLINo93wr2mRW3-Yz/view?usp=sharing).
+& [pretrained model-Setting4](https://drive.google.com/file/d/1NMH6y-F0TmE-e01tVlGKQOfhzoYMwYtV/view?usp=sharing).
+
+## File Paths
 
 Make your downloaded files structured like below:
 
