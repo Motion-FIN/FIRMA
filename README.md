@@ -76,7 +76,7 @@ The dataset folder names should be lower-case and structured as follows:
 ├── test.py
 └── val.py
 ```
-## Run
+## Evaluation
 
 Run benchmarking by following commands:
 ```bash
