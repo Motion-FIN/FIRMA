@@ -88,6 +88,18 @@ The dataset folder names should be lower-case and structured as follows:
 ├── test.py
 └── val.py
 ```
+
+## Quick Usage (Testing on your pair of frames)
+
+First specify the path of the model weights in `configs/test.yaml`.
+
+Generate an intermediate frame on your pair of frames:
+
+```bash
+python test.py --config configs/test.yaml --im0 <path to im0> --im1 <path to im1> --output_dir <path to output folder>
+```
+
+
 ## Evaluation
 
 Run benchmarking by following commands:
@@ -111,12 +123,3 @@ Run the following command for training:
 CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 --master_port 9999 train.py --config configs/train.yaml
 ```
 
-## Testing on your pair of frames
-
-First specify the path of the model weights in `configs/test.yaml`.
-
-Then you can test the model on your image pair as:
-
-```bash
-python test.py --config configs/test.yaml --im0 <path to im0> --im1 <path to im1> --output_dir <path to output folder>
-```
