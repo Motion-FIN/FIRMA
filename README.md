@@ -8,12 +8,16 @@ Additionally, our model employs self-attention scores on the features extracted 
 
 <img src ="https://github.com/Motion-FIN/Motion-Focused-Interpolation-Network-MoFIN-/assets/150782727/ca3f34e5-03b1-4fd4-a013-774a3e7200ea" width="2000" height="400"/>
 
-
 ## Requirements
+- Pytorch 1.12.1
+- python 3.11.3
 
-1. The code has been developed with `torch1.12.1`.
-2. Install other requirements as:
+## Installation
+
+Create conda environment:
+
     ```bash
+    conda create -n MoFIN python=3.11.3
     pip install -r requirements.txt
     ```
 
