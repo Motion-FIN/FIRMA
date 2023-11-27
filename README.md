@@ -8,6 +8,18 @@ Additionally, our model employs self-attention scores on the features extracted 
 
 <img src ="https://github.com/Motion-FIN/Motion-Focused-Interpolation-Network-MoFIN-/assets/150782727/ca3f34e5-03b1-4fd4-a013-774a3e7200ea" width="2000" height="400"/>
 
+## Example of Demo
+
+
+
+https://github.com/Motion-FIN/MoFIN/assets/150782727/763ef991-9153-4b36-92bf-9a232d051162
+
+
+
+https://github.com/Motion-FIN/MoFIN/assets/150782727/42b29480-f8b8-450b-b352-9760f69f7f94
+
+
+
 
 ## Requirements
 - Pytorch 1.12.1
