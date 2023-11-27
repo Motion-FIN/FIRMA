@@ -10,14 +10,17 @@ Additionally, our model employs self-attention scores on the features extracted 
 
 ## Example of Demo
 
-
+### ss
 <p float="left">
+  <img src=figs/golf_Original.gif width=340 /> 
   <img src=figs/golf_MoFIN.gif width=340 />
-  <img src=figs/sports_MoFIN.gif width=340 /> 
 </p>
 
-
-
+### ss
+<p float="left">
+  <img src=figs/sports_Original.gif width=340 /> 
+  <img src=figs/sports_MoFIN.gif width=340 />
+</p>
 
 ## Requirements
 - Pytorch 1.12.1
