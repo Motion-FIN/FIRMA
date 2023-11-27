@@ -11,13 +11,16 @@ Additionally, our model employs self-attention scores on the features extracted 
 ## Example of Demo
 
 ### Golf swing
-![Golf Swing Original](figs/golf_Original.gif)
-![Golf Swing MoFIN](figs/golf_MoFIN.gif)
+<p float="left">
+  <img src=figs/golf_Original.gif width=340 /> 
+  <img src=figs/golf_MoFIN.gif width=340 />
+</p>
 
 ### Play on the soccer field
-![Soccer Field Original](figs/sports_Original.gif)
-![Soccer Field MoFIN](figs/sports_MoFIN.gif)
-
+<p float="left">
+  <img src=figs/sports_Original.gif width=500 /> 
+  <img src=figs/sports_MoFIN.gif width=500 />
+</p>
 
 ## Requirements
 - Pytorch 1.12.1
