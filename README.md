@@ -11,12 +11,10 @@ Additionally, our model employs self-attention scores on the features extracted 
 ## Example of Demo
 
 
-
-https://github.com/Motion-FIN/MoFIN/assets/150782727/763ef991-9153-4b36-92bf-9a232d051162
-
-
-
-https://github.com/Motion-FIN/MoFIN/assets/150782727/42b29480-f8b8-450b-b352-9760f69f7f94
+<p float="left">
+  <img src=figs/golf_MoFIN.gif width=340 />
+  <img src=figs/sports_MoFIN.gif width=340 /> 
+</p>
 
 
 
