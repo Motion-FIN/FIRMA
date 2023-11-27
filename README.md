@@ -10,16 +10,16 @@ Additionally, our model employs self-attention scores on the features extracted 
 
 ## Example of Demo
 
-### ss
+### Golf swing
 <p float="left">
-  <img src=figs/golf_Original.gif width=340 /> 
-  <img src=figs/golf_MoFIN.gif width=340 />
+  <img src=figs/golf_Original.gif width=340 alt="Original" /> 
+  <img src=figs/golf_MoFIN.gif width=340 alt="MoFIN" />
 </p>
 
-### ss
+### Play on the soccer field
 <p float="left">
-  <img src=figs/sports_Original.gif width=340 /> 
-  <img src=figs/sports_MoFIN.gif width=340 />
+  <img src=figs/sports_Original.gif width=340 alt="Original" /> 
+  <img src=figs/sports_MoFIN.gif width=340 alt="MoFIN" />
 </p>
 
 ## Requirements
