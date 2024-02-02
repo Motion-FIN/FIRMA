@@ -31,13 +31,13 @@ Additionally, our model employs self-attention scores on the features extracted 
 
 Download repository:
 ```bash
-git clone https://github.com/Motion-FIN/Motion-Focused-Interpolation-Network-MoFIN-.git
+git clone https://github.com/VFI-FIRMA/FIRMA.git
 ```
 
 Create conda environment:
 ```bash
-conda create -n MoFIN python=3.11.3
-conda activate MoFIN
+conda create -n FIRMA python=3.11.3
+conda activate FIRMA
 pip install -r requirements.txt
 ```
 
