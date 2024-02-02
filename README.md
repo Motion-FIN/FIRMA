@@ -13,13 +13,13 @@ Additionally, our model employs self-attention scores on the features extracted 
 ### Golf swing
 <p float="left">
   <img src=figs/golf_Original.gif width=340 /> 
-  <img src=figs/golf_MoFIN.gif width=340 />
+  <img src=figs/golf_FIRMA.gif width=340 />
 </p>
 
 ### Play on the soccer field
 <p float="left">
   <img src=figs/sports_Original.gif width=500 /> 
-  <img src=figs/sports_MoFIN.gif width=500 />
+  <img src=figs/sports_FIRMA.gif width=500 />
 </p>
 
 ## Requirements
