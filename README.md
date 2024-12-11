@@ -3,7 +3,7 @@
 ## Overview
 In this paper, we present an innovative video frame interpolation approach that uniquely integrates region of motion(RoM) loss and self-attention scores.
 This is the first instance of incorporating RoM loss in video frame interpolation, enabling our model to concentrate on key frame areas crucial for interpolation. This results in notably improved accuracy, particularly in videos with complex and non-linear object movements.
-Additionally, our model employs self-attention scores on the features extracted from the Basic encoder and Contextnet, directing focus to specific motion areas in the frame for more accurate predictions.
+Additionally, our model employs self-attention scores on the features extracted from the Basic encoder and contextnet, directing focus to specific motion areas in the frame for more accurate predictions.
 
 
 <img src ="https://github.com/Motion-FIN/Motion-Focused-Interpolation-Network-MoFIN-/assets/150782727/ca3f34e5-03b1-4fd4-a013-774a3e7200ea" width="2000" height="400"/>
